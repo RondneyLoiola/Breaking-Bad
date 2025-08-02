@@ -1,6 +1,7 @@
 Um site dedicado à famosa série Breaking Bad, desenvolvido com as tecnologias web fundamentais.
 
 Tecnologias Utilizadas 🛠️
+<br>
 -HTML5 - Estruturação do conteúdo
 -CSS3 - Estilização e design responsivo
 -JavaScript - Interatividade e funcionalidades dinâmicas
