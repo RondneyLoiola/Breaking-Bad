@@ -1,6 +1,6 @@
-Um site dedicado à famosa série Breaking Bad, desenvolvido com as tecnologias web fundamentais.
+<h1>Um site dedicado à famosa série Breaking Bad, desenvolvido com as tecnologias web fundamentais.</h1>
 
-Tecnologias Utilizadas 🛠️
+<h2>Tecnologias Utilizadas 🛠️</h2>
 <br>
 -HTML5 - Estruturação do conteúdo
 <br>
@@ -10,7 +10,7 @@ Tecnologias Utilizadas 🛠️
 <br>
 <br>
 
-Funcionalidades ✨
+<h2>Funcionalidades ✨</h2>
 <br>
 -Galeria de personagens
 <br>
