@@ -4,7 +4,7 @@
 
 -HTML5 - Estruturação do conteúdo
 <br>
--CSS3 - Estilização e design responsivo
+-CSS3 - Estilização do site
 <br>
 -JavaScript - Interatividade e funcionalidades dinâmicas
 <br>
