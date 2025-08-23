@@ -2,14 +2,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7px 10px;
+    padding: 0.4375rem 0.625rem; /* 7px 10px */
     position: fixed;
     width: 100%;
     z-index: 99;
 
-
     .logo {
-        width: 100px;
+        width: 6.25rem; /* 100px */
         position: relative;
         left: 0;
     }
@@ -70,19 +69,18 @@ header section {
     transform: translateY(-50%, -50%);
     z-index: 1;
     color: #ffffff;
-    padding: 20px;
-    max-width: 600px;
+    padding: 1.25rem; /* 20px */
+    max-width: 37.5rem; /* 600px */
 
     a {
         color: #ffffff;
         text-decoration: none;
         font-weight: bold;
         font-size: 1.5rem;
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem; /* 10px 20px */
         background-color: #0E4F35;
-        border-radius: 5px;
+        border-radius: 1.25rem; /* 20px */
         transition: background-color 0.3s;
-        border-radius: 20px;
 
         &:hover {
             background-color: #0d6843;
@@ -91,16 +89,16 @@ header section {
 
     h2 {
         font-size: 5rem;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem; /* 20px */
         font-weight: 700;
         line-height: 1.2;
         font-family: '';
     }
 
     p {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
         line-height: 1.6;
-        width: 900px;
+        width: 56.25rem; /* 900px */
     }
 }
 
@@ -124,7 +122,7 @@ header section {
 
 #about .left {
     width: 50%;
-    padding: 20px;
+    padding: 1.25rem; /* 20px */
     position: relative;
     left: 3%;
     display: flex;
@@ -132,15 +130,15 @@ header section {
     justify-content: center;
 
     h2 {
-        font-size: 100px;
-        margin-bottom: 20px;
+        font-size: 6.25rem; /* 100px */
+        margin-bottom: 1.25rem; /* 20px */
         font-weight: 700;
         font-family: '';
         color: #0E4F35;
     }
 
     p {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
         line-height: 1.6;
     }
 }
@@ -154,8 +152,8 @@ header section {
     img {
         width: 80%;
         height: auto;
-        border-radius: 20px;
-        box-shadow: 0px 0px 12px 0px #0E4F35;
+        border-radius: 1.25rem; /* 20px */
+        box-shadow: 0 0 0.75rem 0 #0E4F35; /* 12px */
         transition: transform 1s cubic-bezier(0.215, 0.610, 0.355, 1);
         object-fit: cover;
 
@@ -173,8 +171,8 @@ header section {
     position: relative;
 
     h2 {
-        font-size: 100px;
-        margin-bottom: 20px;
+        font-size: 6.25rem; /* 100px */
+        margin-bottom: 1.25rem; /* 20px */
         font-weight: 700;
         font-family: '';
         color: #0E4F35;
@@ -197,41 +195,40 @@ header section {
 #perso .personagens .skin {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 12px 0px #0E4F35;
+    gap: 1.25rem; /* 20px */
+    padding: 1.25rem; /* 20px */
+    border-radius: 1.25rem; /* 20px */
+    box-shadow: 0 0 0.75rem 0 #0E4F35;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 300px;
-    height: 550px;
+    width: 18.75rem; /* 300px */
+    height: 34.375rem; /* 550px */
     top: 5rem;
 
     #wwimg {
-        width: 240px;
-        height: 240px;
+        width: 15rem; /* 240px */
+        height: 15rem; /* 240px */
     }
 
     #gfimg {
         position: relative;
-        top: 20px;
+        top: 1.25rem; /* 20px */
     }
 
     #gfinfo {
         position: relative;
-        top: 22px;
+        top: 1.375rem; /* 22px */
     }
 
     img {
-        width: 250px;
-        height: 250px;
+        width: 15.625rem; /* 250px */
+        height: 15.625rem; /* 250px */
         object-fit: cover;
         border-radius: 50%;
         border: 0.1rem solid #0E4F35;
         position: relative;
-        top: -10px;
-
+        top: -0.625rem; /* -10px */
     }
 
     h2 {
@@ -242,10 +239,8 @@ header section {
 
     p {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 0.625rem; /* 10px */
     }
-
-    ;
 
     .info {
         display: flex;
@@ -253,10 +248,10 @@ header section {
         align-items: center;
         text-align: justify;
         color: #ffffff;
-        border-radius: 20px;
-        box-shadow: 0px 0px 12px 0px rgba(13, 31, 26, 0.8);
-        padding: 10px;
-        margin-top: 10px;
+        border-radius: 1.25rem; /* 20px */
+        box-shadow: 0 0 0.75rem 0 rgba(13, 31, 26, 0.8);
+        padding: 0.625rem; /* 10px */
+        margin-top: 0.625rem; /* 10px */
     }
 
     &:hover {
@@ -273,8 +268,8 @@ header section {
     position: relative;
 
     h2 {
-        font-size: 100px;
-        margin-bottom: 20px;
+        font-size: 6.25rem; /* 100px */
+        margin-bottom: 1.25rem; /* 20px */
         font-weight: 700;
         font-family: '';
         color: #0E4F35;
@@ -292,47 +287,47 @@ header section {
     left: 50%;
     transform: translate(-50%, -50%);
     gap: 2rem;
-    height: 200px;
+    height: 12.5rem; /* 200px */
 
     img {
         object-fit: cover;
-        width: 300px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        width: 18.75rem; /* 300px */
+        border-top-left-radius: 1.25rem; /* 20px */
+        border-top-right-radius: 1.25rem; /* 20px */
         position: relative;
-        top: 15px;
-        border: 2px solid #0E4F35;
+        top: 0.9375rem; /* 15px */
+        border: 0.125rem solid #0E4F35; /* 2px */
         border-bottom: none;
-        height: 300px;
+        height: 18.75rem; /* 300px */
     }
 
     .season:hover {
         img {
-            width: 420px;
+            width: 26.25rem; /* 420px */
         }
 
         .season-info {
-            height: 200px;
+            height: 12.5rem; /* 200px */
         }
     }
 }
 
 #season .seasons .season-info {
-    border: 2px solid #0E4F35;
+    border: 0.125rem solid #0E4F35; /* 2px */
     border-top: none;
-    padding: 0 10px 10px 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 12px 0px rgba(13, 31, 26, 0.8);
+    padding: 0 0.625rem 0.625rem 0.625rem; /* 0 10px 10px 10px */
+    border-bottom-left-radius: 1.25rem; /* 20px */
+    border-bottom-right-radius: 1.25rem; /* 20px */
+    box-shadow: 0 0 0.75rem 0 rgba(13, 31, 26, 0.8);
     overflow: hidden;
-    height: 50px;
+    height: 3.125rem; /* 50px */
 
     h3 {
         display: flex;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem; /* 40px */
         position: relative;
-        top: 20px;
+        top: 1.25rem; /* 20px */
     }
 
     p:nth-child(2){
@@ -349,8 +344,8 @@ header section {
     position: relative;
 
     h2 {
-        font-size: 100px;
-        margin-bottom: 20px;
+        font-size: 6.25rem; /* 100px */
+        margin-bottom: 1.25rem; /* 20px */
         font-weight: 700;
         font-family: '';
         color: #0E4F35;
@@ -363,17 +358,17 @@ header section {
 
 #curiosidade .curiosidades {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
-    gap: 20px;
+    grid-template-columns: repeat(2, 31.25rem); /* 500px */
+    gap: 1.25rem; /* 20px */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     img {
-        width: 100px;
-        height: 100px;
-        margin-left: 1rem;
+        width: 6.25rem; /* 100px */
+        height: 6.25rem; /* 100px */
+        margin-left: 1rem; 
     }
 }
 
@@ -383,17 +378,16 @@ header section {
     align-items: center;
     text-align: center;
     color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 0px 12px 0px rgba(13, 31, 26, 0.8);
-    padding: 10px;
-    border: 2px solid #0E4F35;
-
+    border-radius: 1.25rem; /* 20px */
+    box-shadow: 0 0 0.75rem 0 rgba(13, 31, 26, 0.8);
+    padding: 0.625rem; /* 10px */
+    border: 0.125rem solid #0E4F35;
 
     p {
         font-size: 1rem;
         line-height: 1.4;
         width: 80%;
-        margin-left: 60px;
+        margin-left: 3.75rem; /* 60px */
         text-align: center;
     }
 }
@@ -402,7 +396,7 @@ header section {
 #rodape {
     background: #0d1f1a;
     width: 100%;
-    height: 100px;
+    height: 6.25rem; /* 100px */
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -419,10 +413,10 @@ header section {
 
 #rodape .redes {
     position: absolute;
-    top: 32px;
+    top: 2rem; /* 32px */
     left: 1%;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem; /* 20px */
 
     i {
         font-size: 2rem;
@@ -434,3 +428,4 @@ header section {
         }
     }
 }
+
